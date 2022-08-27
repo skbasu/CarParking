@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  justify-content: space-evenly;
+}
+.app__title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.app__left {
+  flex: 0.13;
+}
+
+.app__right {
+  flex: 0.8;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}

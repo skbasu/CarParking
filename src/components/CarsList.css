@@ -1,0 +1,45 @@
+.carsList {
+    margin-top: 10px;
+    font-size: 18px;
+    height: 230px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border-top: 8px solid rgb(0, 132, 255);
+}
+
+.item__number {
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(0, 132, 255);
+    padding: 5px;
+}
+
+.item__name {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.item__time {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.delete__button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(185, 24, 24);
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delete__container {
+    text-align: center;
+    background-color: aliceblue;
+}
