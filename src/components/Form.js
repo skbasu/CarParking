@@ -43,15 +43,18 @@ const Form = () => {
             <input
                 className='form__input'
                 type="text"
-                placeholder='Driver name'
+                placeholder='Enter Driver Name'
                 onChange={(e) => setName(e.target.value)}
             />
             <br /><br />
+            <h5 style={{ backgroundColor: "aliceblue", fontSize: "15px", marginBottom: "10px"}}>
+                Enter Checkout Time
+            </h5>
+            
             <input
                 className='form__input'
                 type="time"
                 name='time'
-                placeholder='Checkout Time'
                 onChange={(e) => setcheckOut(e.target.value)}
             />
             <br /><br />
